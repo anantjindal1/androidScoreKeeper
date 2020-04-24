@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llTeamA"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F1F8E9"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_margin="16dp"            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Team A"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Score"
+                />
+            <TextView
+                android:id="@+id/tvScoreA1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:background="#E65100"
+                android:textColor="#FFFFFF"
+                android:textSize="48sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fouls"
+                android:id="@+id/tvLabelFoulA"
+                android:layout_gravity="left"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                />
+
+            <TextView
+                android:id="@+id/tvScoreA2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:background="#B2FF59"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:padding="16dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/btnA1"
+                android:background="#212121"
+                android:textColor="#FFFFFF"
+                android:layout_margin="16dp"
+                android:text="Test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:id="@+id/btnA2"
+                android:background="#212121"
+                android:textColor="#FFFFFF"
+                android:layout_margin="16dp"
+                android:text="Test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnA3"
+                android:background="#212121"
+                android:textColor="#FFFFFF"
+                android:layout_margin="16dp"
+                android:text="Test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnA4"
+                android:background="#212121"
+                android:textColor="#FFFFFF"
+                android:layout_margin="16dp"
+                android:text="Test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/llTeamB"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#F1F8E9"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_margin="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:text="Team B"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:text="Score"
+                />
+            <TextView
+                android:id="@+id/tvScoreB1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center"
+                android:padding="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:background="#E65100"
+                android:textColor="#FFFFFF"
+                android:textSize="48sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fouls"
+                android:id="@+id/tvLabelFoulB"
+                android:layout_gravity="left"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+
+                />
+
+            <TextView
+                android:id="@+id/tvScoreB2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:background="#B2FF59"
+                android:gravity="center_horizontal"
+                android:textSize="24sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:padding="16dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <Button
+                android:id="@+id/btnB1"
+                android:background="#212121"
+                android:textColor="#FFFFFF"
+                android:layout_margin="16dp"
+                android:text="Test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnB2"
+                android:background="#212121"
+                android:textColor="#FFFFFF"
+                android:layout_margin="16dp"
+                android:text="Test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnB3"
+                android:background="#212121"
+                android:textColor="#FFFFFF"
+                android:layout_margin="16dp"
+                android:text="Test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnB4"
+                android:background="#212121"
+                android:textColor="#FFFFFF"
+                android:layout_margin="16dp"
+                android:text="Test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_margin="48dp"
+         android:layout_gravity="center_horizontal"
+         android:text="Reset"
+         android:padding="16dp"
+         android:id="@+id/btnReset"
+         android:onClick="resetVal"
+         />
+
+</LinearLayout>
